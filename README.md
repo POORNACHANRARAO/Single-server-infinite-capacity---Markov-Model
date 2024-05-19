@@ -23,7 +23,8 @@ This is a queuing model in which the arrival is Marcovian and departure distribu
 
  
 ## Program
-```arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
+```
+arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time=float(input("Enter the mean  inter service time of Lathe Machine (in secs) :  "))
 Robot_time=float(input("Enter the Additional time taken for the Robot (in secs) :  "))
 lam=1/arr_time
@@ -46,15 +47,17 @@ if (lam <  mu):
     print("Probability that the system is empty : %0.2f "%(1-lam/mu) )
 else:
     print("Warning! Objects Over flow will happen in the conveyor")
-print("---------------------------------------------------------------")```
+print("---------------------------------------------------------------")
+```
 
 ## Output :
-```
+
 ![image](https://github.com/POORNACHANRARAO/Single-server-infinite-capacity---Markov-Model/assets/163993491/4db64fc2-2c6f-4d70-b67e-fb6685fca09b)
-```
 
 
-## Result :The average number of material in the sysytem and in the conveyor and waiting time are successfully found.
+
+## Result :
+The average number of material in the sysytem and in the conveyor and waiting time are successfully found.
 
 
 
